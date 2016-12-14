@@ -1,0 +1,12 @@
+Source: xnp2
+Section: devel
+Priority: optional
+Maintainer: Ivan Wu <wuyifan@deepin.com>
+Build-Depends: debhelper (>=9), libice-dev, pkg-config, libx11-dev, libxext-dev, libgtk2.0-dev (>=2.6), libsdl2-dev, libusb-1.0-0-dev
+Standards-Version: 3.9.8
+Homepage: http://www.nonakap.org/np2/
+
+Package: xnp2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Xnp2 is a PC98 simulator.

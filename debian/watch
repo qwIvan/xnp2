@@ -1,0 +1,2 @@
+version=4
+http://www.nonakap.org/np2/ .*/xnp2-(\d\S+)\.tar\.bz2 
