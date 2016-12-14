@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=xnp2
+Exec=xnp2
+Icon=/usr/share/icons/hicolor/scalable/apps/xnp2.svg
+Terminal=false
+Categories=Game;
+StartupNotify=true

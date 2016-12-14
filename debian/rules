@@ -1,14 +1,16 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --parallel
+	dh $@ --sourcedirectory=x11 --parallel
 
 override_dh_auto_configure:
-	dh_auto_configure --sourcedirectory=x11 -- --enable-build-all
+	dh_auto_configure -- --enable-build-all --prefix=/usr
 
-override_dh_auto_build:
-	dh_auto_build --sourcedirectory=x11
-	cd x11 && ./autogen.sh
-
-override_dh_auto_clean:
-	dh_auto_clean --sourcedirectory=x11
+#override_dh_auto_build:
+#	dh_auto_build --sourcedirectory=x11
+#
+#override_dh_auto_clean:
+#	dh_auto_clean --sourcedirectory=x11
+#
+#override_dh_install:
+#	override_dh_install --sourcedirectory=x11
