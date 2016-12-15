@@ -1,3 +1,9 @@
+xnp2 (0.86-2) unstable; urgency=medium
+
+  * remove dependency libsdl2-dev
+
+ -- Ivan Wu <wuyifan@deepin.com>  Thu, 15 Dec 2016 14:46:18 +0800
+
 xnp2 (0.86-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
